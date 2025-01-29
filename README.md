@@ -1,4 +1,3 @@
-```md
 # 3.5D Neural Network Memory Stack
 
 An experimental **3.5D memory substrate** designed for advanced neural network architectures. This library provides tools to manage multi-dimensional memory nodes, integrate with an HTML5 `<canvas>` for visualization, and explore how network topologies can self-adapt through a novel approach to memory allocation and retrieval.
@@ -94,10 +93,10 @@ console.log('Auto-expanded matrix at (1,2,3):', memory.getAllData(1, 2, 3));
    ```
 2. **Rendering to Canvas**  
    Use any rendering logic you like inside your code:
-   ```js
+   ```
    const canvas = document.getElementById('memoryCanvas');
    const ctx = canvas.getContext('2d');
-
+```
 // Example: visualize memory nodes as colored squares
 function renderMemory(mem) {
   ctx.clearRect(0, 0, canvas.width, canvas.height);
@@ -110,10 +109,10 @@ function renderMemory(mem) {
     ctx.fillRect(xPos, yPos, 15, 15);
   });
 }
-
+```
 // Suppose you call this function whenever memory is updated:
 renderMemory(memory);
-```
+
 
 This approach allows you to visualize how nodes are created or expanded as your neural network or data-processing system runs.
 
@@ -166,7 +165,7 @@ Before submitting a pull request:
 This project is licensed under the [MIT License](LICENSE). You’re free to use, modify, and distribute this code in both commercial and non-commercial settings.
 
 [Back to Contents](#table-of-contents)
-```
+
 
 **How to Use This README**  
 1. Save it as **`README.md`** in the root directory of your repository.  
